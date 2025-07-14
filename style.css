@@ -1,0 +1,18 @@
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f9fafb;
+  color: #374151;
+}
+h1 {
+  text-align: center;
+}
+.viz {
+  margin: 30px 0;
+}
+svg {
+  background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temporal Structures – HVI Visualizations</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>NYC Heat Vulnerability Visualizations</h1>
+
+  <section>
+    <h2>1. Line Chart – HVI Over Time by ZIP</h2>
+    <p>This line chart displays the Heat Vulnerability Index (HVI) from 2016 to 2020 for three ZIP codes. It visualizes how vulnerability levels changed across time in each area.</p>
+    <div id="d3-container-0" class="viz"></div>
+    <script src="heat-vulnerability.js"></script>
+  </section>
+
+  <section>
+    <h2>2. Calendar Heatmap – Daily HVI</h2>
+    <p>This calendar heatmap shows synthetic daily HVI values across the year 2020. Each square represents one day, with color intensity indicating vulnerability level.</p>
+    <div id="d3-container-1" class="viz"></div>
+    <script src="calendar-hvi.js"></script>
+  </section>
+
+  <section>
+    <h2>3. Radial Chart – Monthly HVI by ZIP</h2>
+    <p>This radial chart encodes monthly HVI data for each ZIP code in a circular layout, highlighting seasonal patterns and differences across locations.</p>
+    <div id="d3-container-2" class="viz"></div>
+    <script src="radial-hvi.js"></script>
+  </section>
+
+  <section>
+    <h2>4. Choropleth Map – 2020 HVI by ZIP</h2>
+    <p>This choropleth map shows spatial variation in HVI for NYC ZIP codes in 2020. Darker colors represent higher vulnerability.</p>
+    <div id="d3-container-3" class="viz"></div>
+    <script src="map-hvi.js"></script>
+  </section>
+</body>
+</html>
